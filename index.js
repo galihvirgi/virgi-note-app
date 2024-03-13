@@ -6,6 +6,7 @@ const UserPlugin = require('./plugins/userNotes');
 
 const init = async () => {
 
+    //membuat server
     const server = Hapi.server({
         port: 3000,
         host: '0.0.0.0',

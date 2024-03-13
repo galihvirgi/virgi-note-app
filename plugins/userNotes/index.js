@@ -1,5 +1,6 @@
 const routesUser = require("./routes")
 
+//Ini plugin untuk UserNote
 const UserPlugin = {
     name : 'user',
     version : '1.0.0',
